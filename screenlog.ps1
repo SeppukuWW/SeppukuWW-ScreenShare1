@@ -24,8 +24,4 @@ if ($events) {
     Write-Host '   [Нет событий. Удалите или переименуйте файл для проверки]' -ForegroundColor Yellow
 }
 
-git init
-git add USN.ps1
-git branch -M main
-git remote add origin https://github.com/SeppukuWW/SeppukuWW-SeppukuWW-ScreenShare1.git
-git push -u origin main
+
